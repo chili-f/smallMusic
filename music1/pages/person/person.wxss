@@ -1,0 +1,170 @@
+.personalContainer {
+  width: 100%;
+  height: 100%;
+}
+.personalContainer .user-section {
+  height: 520rpx;
+  position: relative;
+  padding:100rpx 30rpx 0;
+}
+.user-section .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  filter: blur(1px);
+}
+/* 头像和昵称 */
+.user-info-box {
+  height: 180rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.user-info-box .portrait {
+  width: 130rpx;
+  height: 130rpx;
+  border: 5rpx solid #fff;
+  border-radius: 50%;
+}
+.user-info-box .username{
+  margin-left: 20rpx;
+  font-size: 24rpx;
+  color: #303133;
+}
+/* vip盒子 */
+.vip-card-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 24rpx;
+  height: 240rpx;
+  border-radius:16rpx 16rpx 0 0;
+  color: #f7d680;
+  background: rgba(0, 0, 0, .7);
+}
+.vip-card-box  .card-bg {
+  position: absolute;
+  top: 20rpx;
+  right: 0;
+  width: 380rpx;
+  height: 260rpx;
+}
+.become {
+  display: flex;
+  justify-content: space-between;
+}
+.become .tit {
+  font-size: 22rpx;
+  color: #f7d680;
+  margin-bottom: 28rpx;
+}
+.become  .b-btn{
+  z-index: 1;
+  width: 132rpx;
+  height: 40rpx;
+  background-color: #f9e6af;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 22rpx;
+  border-radius: 20px;
+  color:#36343c;
+}
+.vip-card-box  .e-m {
+  font-size: 34rpx;
+  margin-top: 10rpx;
+}
+.vip-card-box  .e-b {
+  font-size: 24rpx;
+  color: #d8cba9;
+  margin-top: 10rpx;
+}
+
+/* 中间内容 */
+.cover-container {
+  position:relative;
+  margin-top: -150rpx;
+  padding: 0 30rpx;
+  height: 590rpx;
+  background: #f5f5f5;
+  padding-bottom: 20rpx;
+}
+.cover-container .arc{
+  position: absolute;
+  top: -34rpx;
+  left: 0;
+  width: 100%;
+  height: 36rpx;
+}
+/* 导航部分 */
+.nav-section {
+  display: flex;
+  padding: 20rpx 0;
+  background-color: #fff;
+  border-radius: 15rpx;
+}
+.nav-item {
+  width: 25%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-section .nav-item .iconfont {
+  font-size: 50rpx;
+  color: #d43c33;
+  line-height: 70rpx;
+}
+.nav-section .nav-item text:last-child {
+  font-size: 22rpx;
+}
+/* 个人中心列表 */
+.personalContent {
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+/* 最近播放 */
+.personalContent .scrollView {
+  display: flex;
+  height: 160rpx;
+}
+.personalContent .recentPlay {
+  display: flex;
+}
+.recentPlayContainer .title {
+  padding-left: 20rpx;
+  font-size: 26rpx;
+  color: #333;
+  line-height: 80rpx;
+}
+
+.personalContent .recentPlay image {
+  width: 160rpx;
+  height: 160rpx;
+  margin-left: 20rpx;
+  border-radius: 20rpx;
+}
+.cardList {
+  margin-top: 20rpx;
+}
+.cardList .card-item{
+  border-top: 1rpx solid #eee;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 20rpx;
+  font-size: 26rpx;
+  color: #333;
+}
+.cardList .card-item .more {
+  float: right;
+}
+
+
+
+
+
+
+
